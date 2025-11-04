@@ -240,7 +240,7 @@ year, month, day), extract the necessary components and use string concatenation
 output the formatted string: "Today is MM/DD/YYYY". (Hint: Months are zero-indexed,
 so remember to add 1). Log the final formatted string to the console.*/
 var today = new Date();
-var month = today.getMonth() + 1; // months are zero-indexed
+var month = today.getMonth() + 1; 
 var day = today.getDate();
 var year = today.getFullYear();
 var monthStr = (month < 10) ? ('0' + month) : ('' + month);
@@ -257,8 +257,8 @@ operators.*/
 
 var val1 = 20;
 var val2 = "5";
-var sumResult = val1 + val2; 
-var diffResult = val1 - val2; 
+var sumResult = val1 + val2;  //overloaded for string
+var diffResult = val1 - val2;  //not overloaded for string
 console.log('Exercise 18 sumResult:', sumResult);
 console.log('Exercise 18 diffResult:', diffResult);
 /*
