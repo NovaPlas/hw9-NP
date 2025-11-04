@@ -98,7 +98,7 @@ isBlocking = "true";
 console.log('Exercise 7 after string reassignment typeof isBlocking:', typeof isBlocking); // "string"
 
 /* Exercise 8: Invalid Variable Naming */
-// The following lines are invalid and therefore commented out.
+// invalid area below so I won't add to program. 
 // var 1stValue = 5;      // invalid: cannot start identifier with a digit
 // var my value = 10;     // invalid: space not allowed in identifier
 // var %percent = 50;     // invalid: % is not allowed as first char (except $ and _ are allowed)
