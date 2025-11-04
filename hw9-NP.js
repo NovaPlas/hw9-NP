@@ -224,6 +224,7 @@ function's purpose (e.g., calculating the time taken to parse HTML and execute
 JavaScript). Include a single-line comment inside the function body using `//` */
 
 function calculateRenderTime() {
+    
     /*
       calculateRenderTime:
       Purpose: Estimate the time taken to parse the HTML and execute associated JavaScript,
